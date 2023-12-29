@@ -1,0 +1,94 @@
+.tbContainer{
+    height: 50px;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.tbLeft{
+    flex: 3;
+}
+
+.tbLogo{
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.tbCenter{
+    flex: 5;
+}
+
+.tbSearchbar{
+    width: 100%;
+    height: 25px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+.tbSearchIcon{
+    font-size: 20px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.tbSearchInput{
+    border: none;
+    width: 70%;
+}
+.tbSearchInput:focus{
+    outline: none;
+}
+
+.tbRight{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.tbLinks{
+    margin-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.tbIcons{
+    display: flex;
+}
+.tbIconsItem{
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+}
+.tbIconsBadge{
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tbImg{
+    height: 32px;
+    width: 32px;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+}

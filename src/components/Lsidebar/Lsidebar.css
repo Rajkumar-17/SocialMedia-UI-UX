@@ -1,0 +1,68 @@
+.lsidebar{
+    flex: 3;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+    position: sticky;
+    top: 50px;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb{
+    background-color: gray;
+}
+
+
+
+.lsWapper{
+    padding: 20px;
+}
+
+.lsList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.lsListItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.lsIcon{
+    margin-right: 15px;
+}
+
+.lsButton{
+    width: 150px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.lsHr{
+    margin: 20px 0px;
+}
+
+.lsFriendList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.lsFriend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.lsFriendImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 10px;
+}
